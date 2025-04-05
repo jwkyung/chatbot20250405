@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 #이미지 표시
-st.image("챗봇이미지.png", use_column_width=True)
+st.image("챗봇이미지.png", use_container_width=True))
 
 st.title("🧠 시사 사설 분석 챗봇")
 st.write("고등학생이 이해할 수 있도록 시사 사설을 분석해주는 챗봇입니다.")
